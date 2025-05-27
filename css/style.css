@@ -63,3 +63,25 @@ a,i{
 #navbar a:hover{
     color: #c1b696
 }
+
+/*NAVBAR*/
+.main-image{
+    height: 400px;
+    width: 90%;
+    background-image: url("../img/g_1.jpg");
+    position: relative;
+}
+#main-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.main-image-info{
+    background-color: #fff;
+    padding: 25px;
+    align-self: end;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
